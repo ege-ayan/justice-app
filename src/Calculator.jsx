@@ -110,7 +110,7 @@ const Calculator = () => {
       return
     }
 
-    setReddedilenTutar(totalReddedilenTutar);
+    
 
     // Kabul Oranı Hesaplama
    
@@ -120,7 +120,7 @@ const Calculator = () => {
     } else {
       setKabulOrani("%" + (totalKabulEdilenTutar/totalTalepEdilenTutar * 100)) ;
     }
-    
+    setReddedilenTutar(totalReddedilenTutar);
     if (totalTalepEdilenTutar === 0) {
       setRedOrani("%0");
     } else {
